@@ -1,0 +1,383 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'montserrat', sans-serif;
+  }
+  
+  .main {
+    position: relative;
+    width: auto;
+    height: auto;
+  }
+  
+  .titulo {
+    padding: 15px;
+    width: 30vw; 
+    margin: auto;
+  }
+  
+  .logo{
+    position: relative;
+    width: 2%;
+    left:5rem;
+    right: 10%;
+    top: 5rem;
+  }
+
+  .text-input, .form-group{
+    top: 29rem; 
+  }
+
+  .text-input{
+    left:10rem;
+    width: 25rem;
+    top: 8rem; 
+  }
+
+  
+  .text-input {
+  
+    text-transform:lowercase;
+
+    position: absolute;
+    width: 36rem;
+    height: 25rem; /* altura do textarea */
+    top: 12rem; 
+    background: #ffffff;
+    padding: 16px;
+    
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+
+   
+    resize: none;
+  }
+  
+  .text-input, .form-group{
+    left: 15rem;
+    border-color: transparent;
+  }
+
+  ::placeholder { color: #0A3871 }
+  
+  .text-input:focus {
+    outline: none;
+  }
+  
+  .form-group{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    width: auto;
+    height: 18px;
+    top: 33rem;
+  }
+  
+  .img-alerta, label{
+    position: static;
+    margin-top:10rem;
+  }
+  
+  label {
+    width: auto;
+    height: 18px;
+    margin-top:10rem;
+    left: 24px;
+    padding-left: 12px;
+    font-weight: 400;
+    font-style: regular;
+    font-size: 14px;
+    color: #000000;
+  }
+  
+  .botoes-div {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 600px;
+    height: 67px;
+    left: 13rem;
+    margin-top: 43rem;
+  }
+
+  .btn-criptografar {
+    background: #0A3871;
+  }
+
+  .btn-criptografar:hover {
+    background: #0A3871;
+    transition: 0.3s all;
+  }
+
+  .btn-descriptografar {
+    background:#D8DFE8;
+  }
+
+  .btn-descriptografar:hover {
+    background: #b4b4b4;
+    transition: 0.3s all;
+  }
+    
+  .btn-criptografar, .btn-descriptografar {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    position: static;
+    width: 265px;
+    height: 67px;
+  
+    border-radius: 15px;
+    border-color: transparent;
+  
+    flex: none;
+    flex-grow: 0;
+    margin: 0px 24px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 19px;  
+    justify-content: center;
+  }
+
+  .div-mensagem {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    top: 0px;
+    margin: 24px; 
+    resize: none;
+    font-size: 22px;
+    font-style: normal;
+    text-align: center;
+    color: #646464;
+    background: transparent;
+    border-color: transparent;
+  }
+
+  .message-box-div h2 {
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 26px;
+  }
+
+  .message-box-div h3 {
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    width: 250px;
+    margin: auto;
+  }
+  
+  .message-box {
+    position: absolute;
+    width: 446px;
+    height: 676px;
+    left: 56rem;
+    top: 8rem;
+    padding-top: 90px;
+    border-color: transparent;
+    color: #ffffff;
+    text-align: center;
+
+    background: linear-gradient(to bottom, rgb(240, 240, 240), rgb(0, 38, 90));
+
+    border-radius: 15px;
+  }
+
+  .btn-copiar {
+    margin-top: 30px;
+    background: #40528D;
+    top: 35rem;
+  }
+
+  .btn-copiar:hover {
+    background: #016ABC;
+    color: #fff;
+  }
+
+  .btn-limpar {
+    top: 40rem;
+    background: #7583C3;
+  }
+
+  .btn-limpar:hover {
+    background: #016ABC;
+    color: #fff;
+  }
+
+  .btn-copiar, .btn-limpar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 17px;
+    margin-left: 76px;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+    width: 300px;
+    height: 26px;
+    border-radius: 10px;
+    border-color: transparent;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    text-align: center;
+    flex: none;
+    justify-content: center;
+    align-content: flex-start;
+    flex-wrap: nowrap;
+  }
+  
+  /* Rodapé */
+  .rodape-prin, .rodape-prin span, .icones-sociais li {
+    color: #b4b4b4;
+  }
+
+  .far fa-clone {
+    background: #210f87;
+  }
+
+  .fas fa-eraser {
+    background: #003300;
+  }
+  
+  .rodape-prin {
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "arial", sans-serif;
+    text-align: center;
+
+    clear: both; 
+    width: 80rem;
+    height: 40px;
+    margin-top:55rem;
+    left: 13rem;
+  }
+  
+  .rodape-prin span {
+    float: left;
+    width:60%; 
+    line-height: 30px; 
+  }
+  
+  .icones-sociais ul {
+    display: inline-block;
+    height: inherit;
+    line-height: 40px;
+  }
+  
+  .icones-sociais img{
+    background: transparent;
+  }
+  
+  /* Faz os ícones aparecerem no rodapé no tamanho adequado */
+  .icones-sociais li {
+    display: inline-block;
+    background: transparent;
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+  }
+
+  /* ============ */
+
+  @media only screen and (max-width: 690px){
+    .logo{
+      left:1rem;
+      top: 3rem;
+  }
+
+  label {
+      font-size:14px;
+  }
+
+  /* Imagem caixa de mensagem da home */ 
+  .message-box-div img {
+    margin-top: 20px;
+    padding: 40px;
+    display: none;
+    align-items: left;
+    border-color: #000000;
+  }
+
+  .botoes-div{
+      flex-direction: column;
+      left: 2rem;
+      margin-top: 37rem;
+  }
+    
+  /* Rodapé */
+  .rodape-prin, .rodape-prin span, .icones-sociais li {
+    background: transparent;
+  }
+  
+  .rodape-prin {
+    width:20rem;
+    height: 40px;
+    margin-top:96rem;
+    left: 5rem;
+  }
+  
+  .rodape-prin span {
+    width:65%; /* determina o espaço entre o copyright e os icones */
+    line-height: 30px; /* Mesma altura do rodapé */
+  }
+
+/* =============== */
+
+@media only screen and (min-width: 690px) and (max-width:900px){
+  .logo{
+    left:4rem;
+    top: 3rem;
+  }
+
+  .form-group{
+    top: 29rem; /* altera posição do label */
+  }
+  
+  label {
+    font-size:14px;
+  }
+  
+  .botoes-div{
+    flex-direction: column;
+    left: 8rem;
+    margin-top: 37rem;
+  }
+
+.btn-criptografar, .btn-descriptografar {
+      font-size: 22px;
+      width: 300px;
+      margin-top:1rem;
+    }
+
+.btn-descriptografar {
+    margin-top:1rem;
+  } 
+
+/* Rodapé */
+.rodape-prin, .rodape-prin span, .icones-sociais li {
+  background: transparent;
+}
+
+.rodape-prin {
+  width:24rem;
+  height: 40px;
+  margin-top:97rem;
+  left: 11rem;
+}
+
+.rodape-prin span {
+  width:65%; /* determina o espaço entre o copyright e os icones */
+  line-height: 30px; /* Mesma altura do rodapé */
+}
